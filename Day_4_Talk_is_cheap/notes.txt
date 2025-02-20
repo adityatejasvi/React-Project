@@ -1,0 +1,13 @@
+-> Using Props(Properties) we can make res card dynamic 
+->it is passing props to a component (it is just like passing an argument)
+->it will wrap it into an object and pass it as props in component
+
+## conflict driven Ui 
+controlling your UI using data (Conflict) that comes from backend
+eg:-> different coupoun based on location and user (conflict in data)
+
+## Map key and Rendering
+-> while using map always use a key
+=> it helps react in rendering (optimization of rendering)
+-> Don't take index as key (bad Practice)
+-> 

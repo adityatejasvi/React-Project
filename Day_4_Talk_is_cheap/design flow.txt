@@ -1,0 +1,15 @@
+Header
+ -Logo
+ -Nav Item
+Body
+  -Search 
+  -Restaurant Container
+  -Restaurant Card
+    -Img
+    -Name of Res, Star Rating, Cusine, Delivery Time
+Footer
+  -Copyright
+  -contact
+  -Links
+  -Address
+
