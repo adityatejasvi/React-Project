@@ -1,0 +1,28 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "React Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityatejasvi/React-Project.git"
+  },
+  "author": "Aditya/Akshay Saini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityatejasvi/React-Project/issues"
+  },
+  "homepage": "https://github.com/adityatejasvi/React-Project#readme",
+  "dependencies": {
+    "parcel": "^2.13.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

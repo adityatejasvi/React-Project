@@ -1,0 +1,26 @@
+React Key Concepts
+1️⃣ Using Props (Properties) for Dynamic Components
+Props help make React components dynamic.
+Passing props to a component is similar to passing arguments to a function.
+React wraps props into an object and passes them to the component.
+2️⃣ Conflict-Driven UI
+Controlling the UI based on data conflicts from the backend.
+Example: Displaying different coupons based on user location or preferences.
+3️⃣ Map Keys & Rendering Optimization
+Always use a unique key when rendering lists with .map().
+Keys help React optimize rendering performance.
+❌ Bad Practice: Using index as a key.
+4️⃣ React’s Efficient DOM Manipulation
+React is optimized for fast UI updates.
+It aligns DOM manipulation with state changes efficiently.
+Hooks provide additional power to variables for UI updates.
+5️⃣ React Hooks
+React Hooks are utility functions provided by React to manage state and side effects.
+
+🔹 useState()
+Used to create a state variable in functional components.
+Maintains the component's state and triggers re-renders when updated.
+Whenever a state variable updates React re renders the component
+🔹 useEffect()
+Handles side effects like fetching data, subscribing to events, etc.
+Runs after the component renders or when dependencies change.

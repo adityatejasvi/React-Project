@@ -1,0 +1,25 @@
+Generally all the main code in reacr project is put in src folder
+
+Best practice is to make a seperate file for every component
+
+we will keep the component inside src inside component folder
+
+Try to keep the file name same as header component
+
+## some like to put component like .jsx or .txs or .js 
+But it is convinent to put .js
+
+## while importing the js files from component it's on you to import as
+either without .js or with js name
+
+## Never keep the hard coded data in component file
+
+## Never keep the hard coded String(link) in component file
+keep it in seperate file called utilities/common/utils
+
+## There are 2 types of export and import 
+-> one is defalut export/import 
+-> named import/export
+
+--- Since in a file we can have only one default export
+we use named export/import (write import/export as prefix)
